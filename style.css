@@ -1,16 +1,51 @@
-body {
-    background-image: linear-gradient(rgb(8,8, 32), 90%, white);
-    color:white;
+body{
+    background-color: rgb(8,8, 32);
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 10px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 5px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;   
+    color: white;
     margin-left: 20px;
+  
   }
-  img{
-    border-radius: 50%;
-        max-width: 50%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+
+  .topnav {
+    background-color: rgb(8,8, 32);
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
   
+  .topnav a.active {
+    background-color: #075091;
+    color: white;
+  }
+
+  .pics{
+    border-radius: 50%;
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container{
+    text-align: center;
+  }
+
 
